@@ -1,0 +1,65 @@
+
+
+body { 
+    background: url('../images/run.gif') no-repeat center center fixed;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+header{
+	text-align: center;
+}
+
+#head{
+	font-size: 40pt;
+	font-family: sans-serif;
+}
+#wrapper{
+	background-color: rgba(200, 200, 200, 0.3);
+	width: 40%;
+	text-align: center;
+	margin-left: 50px;
+	margin-top: 50px;
+	padding-bottom: 10px;
+	border: black 2px solid;
+	border-radius: 25px;
+	font-family: sans-serif;
+	padding-left: 30px;
+}
+#done{
+	font-size: 20pt;
+	margin-top: -5px;
+	margin-bottom: 40px;
+
+}
+
+ul {
+    list-style-type: none;
+    text-align: left;
+}
+#next{
+	color: white;
+	width: 60px;
+	border: 2px solid black;
+	text-align: center;
+	border-radius: 10px;
+	float: right;
+	margin-right: 30px;
+	margin-top: 49px;
+	background-color: black;
+
+}
+
+#start {
+    display:none;
+    width: 90px;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 10px;
+	float: right;
+	margin-right: 30px;
+	
+	background-color: black;
+	color: white;
+}
